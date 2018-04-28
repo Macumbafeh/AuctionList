@@ -1,0 +1,26 @@
+2.0 (9/22/15):
+   * Changed /auclist back to /auctionlist and is only used to open the new shopping list window.
+   * The item list is now typed into an editbox with one search on each line. Min and Max levels are optional at the end, like:
+     scroll of
+     scroll of 60
+     scroll of 60 70
+   * Three buttons were added to the auction house window to go forward and back and to open the shopping list window.
+     [L] button:
+        left click  : open the auction house shopping list - can also type /auctionlist to open it
+        other click : reset shopping list item place - return to the first item on the list
+     [>] button:
+        left click  : go to next page if it exists, or search for next item if it doesn't
+        right click : skip any remaining pages and search for the next item
+        middle click: for auctioneer's bottom scan - buy the item if a snatch prompt is up
+        Button4 or 5: for auctioneer's bottom scan - pass the item if a snatch prompt is up
+     [<] button:
+        left click  : go to previous page if it exists, or search for previous item if it doesn't
+        right click : skip any previous pages and search for the previous item
+        middle click: for auctioneer's bottom scan - buy the item if a snatch prompt is up
+        Button4 or 5: for auctioneer's bottom scan - pass the item if a snatch prompt is up
+
+1.1 (11/28/13):
+   * changed /auctionlist to /auclist
+   * made it possible to use the item's position number instead of the name for removing or moving, like:
+        /auclist remove 6
+        /auclist move 9 3

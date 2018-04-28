@@ -1,0 +1,10 @@
+## Interface: 20400
+## Title: AuctionList
+## Author: Pyralis
+## Version: 2.1
+## Notes: Create an auction house item list and be able to search through each thing on it using buttons.
+## SavedVariablesPerCharacter: AuctionListSave
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+AuctionList.lua
